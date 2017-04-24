@@ -5,7 +5,7 @@ a sample c project
 ## Usage
 
 ```sh
-gcc main.c **/*.c && ./a.out
+make && ./main
 ```
 
 ### Watch
@@ -13,13 +13,14 @@ gcc main.c **/*.c && ./a.out
 * install pywatch `pip install pywatch`
 
 ```sh
-pywatch "gcc main.c **/*.c && ./a.out" **/*.c
+pywatch "make && ./main" **/*.c
 ```
 
 ## Goals
 
 this playground should cover following topics:
 
+* Makefile
 * how to include files
 * unit testing
 * dependency management

@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-#include "lib/point.h"
+#include "point.h"
 
 int main(void) {
 
