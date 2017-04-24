@@ -4,10 +4,8 @@ a sample c project
 
 ## Usage
 
-
 ```sh
-gcc main.c
-./a.out
+gcc main.c **/*.c && ./a.out
 ```
 
 ### Watch
@@ -15,7 +13,7 @@ gcc main.c
 * install pywatch `pip install pywatch`
 
 ```sh
-pywatch "gcc main.c && ./a.out" **/*.c
+pywatch "gcc main.c **/*.c && ./a.out" **/*.c
 ```
 
 ## Goals
