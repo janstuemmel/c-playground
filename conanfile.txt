@@ -1,0 +1,5 @@
+[requires]
+RapidJSON/1.0.2@SamuelMarks/stable
+
+[generators]
+cmake

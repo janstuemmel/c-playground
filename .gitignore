@@ -1,3 +1,13 @@
+CMakeCache.txt
+conanbuildinfo.cmake
+cmake_install.cmake
+Makefile
+CMakeFiles
+conaninfo.txt
+lib
+bin
+
+
 *out
 *o
 main
