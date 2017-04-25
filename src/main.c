@@ -1,6 +1,9 @@
 #include <stdio.h>
 
 #include "point.h"
+
+#include "cjson/cJSON.h"
+
 // #include "Poco/Timer.h"
 
 int main(void) {
